@@ -7,8 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Service(interfaceClass = UserService.class)
-@Component
+@Service
 public class UserServiceImpl implements UserService {
 
 

@@ -25,6 +25,7 @@
         <java.version>1.8</java.version>
         <boot.dubbo.version>2.0.0</boot.dubbo.version>
         <zkclient.version>0.10</zkclient.version>
+        <log4j.version>1.2.17</log4j.version>
     </properties>
 
     <dependencyManagement>
@@ -63,6 +64,12 @@
                 <groupId>com.101tec</groupId>
                 <artifactId>zkclient</artifactId>
                 <version>${zkclient.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
             </dependency>
 
         </dependencies>
