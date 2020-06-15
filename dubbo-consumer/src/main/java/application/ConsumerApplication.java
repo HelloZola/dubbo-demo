@@ -1,19 +1,11 @@
 package application;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.web.bind.annotation.RestController;
 
-import com.alibaba.dubbo.spring.boot.annotation.EnableDubboConfiguration;
-
-/**
- * @类名称：ConsumerApplication
- * @类描述：TODO
- * @作者：Lv Ming
- * @日期：2018年6月16日
- * @版本：V1.0
- */
-@SpringBootApplication
-@EnableDubboConfiguration
+@RestController
+@EnableAutoConfiguration
 public class ConsumerApplication {
 
     public static void main(String[] args) {
